@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 J.J.A.P. van Breukelen. All rights reserved.
 //
 
-#import <Foundation/Foundation.h> //hello world
+#import <Foundation/Foundation.h> 
 
 @interface JvBAnimator : NSObject <UIViewControllerAnimatedTransitioning> //adopt AnimatedTransitioning protocol
 

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JvBAnimator.h"
 
-@interface JvBViewController : UIViewController
+@interface JvBViewController : UIViewController <UINavigationControllerDelegate> //adopt the UINavigationcontrollerDelegate
+
+@property (nonatomic) JvBAnimator *animator;
 
 @end

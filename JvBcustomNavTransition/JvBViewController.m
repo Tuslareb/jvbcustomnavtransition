@@ -17,13 +17,34 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    //create the animator object
+    self.animator = [JvBAnimator new];
+	
+    //tell the navigationcontroller that this view controller acts as its delegate
+    self.navigationController.delegate = self;
+    
 }
 
-- (void)didReceiveMemoryWarning
+
+
+#pragma mark - UINavigationController delegate method
+
+/*
+ 
+ Implement the UINavigationController delegate method for custom transitions. This method is called by
+ the UINavigationController when it asks for a custom animator object. In this case the method returns a JvBAnimator
+ object, which holds the transition.
+ 
+ */
+
+- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                  animationControllerForOperation:(UINavigationControllerOperation)operation
+                                               fromViewController:(UIViewController *)fromVC
+                                                 toViewController:(UIViewController *)toVC
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return self.animator;
 }
+
 
 @end

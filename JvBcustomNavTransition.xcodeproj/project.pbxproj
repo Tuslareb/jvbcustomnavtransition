@@ -21,6 +21,7 @@
 		C8001D4C1941CD3F00EC20F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8001D2E1941CD3F00EC20F4 /* UIKit.framework */; };
 		C8001D541941CD3F00EC20F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8001D521941CD3F00EC20F4 /* InfoPlist.strings */; };
 		C8001D561941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8001D551941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m */; };
+		C8001D611941CDF800EC20F4 /* JvBAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C8001D601941CDF800EC20F4 /* JvBAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C8001D511941CD3F00EC20F4 /* JvBcustomNavTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JvBcustomNavTransitionTests-Info.plist"; sourceTree = "<group>"; };
 		C8001D531941CD3F00EC20F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8001D551941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JvBcustomNavTransitionTests.m; sourceTree = "<group>"; };
+		C8001D5F1941CDF800EC20F4 /* JvBAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JvBAnimator.h; sourceTree = "<group>"; };
+		C8001D601941CDF800EC20F4 /* JvBAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JvBAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C8001D3C1941CD3F00EC20F4 /* Main.storyboard */,
 				C8001D3F1941CD3F00EC20F4 /* JvBViewController.h */,
 				C8001D401941CD3F00EC20F4 /* JvBViewController.m */,
+				C8001D5F1941CDF800EC20F4 /* JvBAnimator.h */,
+				C8001D601941CDF800EC20F4 /* JvBAnimator.m */,
 				C8001D421941CD3F00EC20F4 /* Images.xcassets */,
 				C8001D311941CD3F00EC20F4 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8001D371941CD3F00EC20F4 /* main.m in Sources */,
+				C8001D611941CDF800EC20F4 /* JvBAnimator.m in Sources */,
 				C8001D411941CD3F00EC20F4 /* JvBViewController.m in Sources */,
 				C8001D3B1941CD3F00EC20F4 /* JvBAppDelegate.m in Sources */,
 			);

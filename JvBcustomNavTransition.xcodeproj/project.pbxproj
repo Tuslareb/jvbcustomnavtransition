@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8001D2B1941CD3F00EC20F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8001D2A1941CD3F00EC20F4 /* Foundation.framework */; };
+		C8001D2D1941CD3F00EC20F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8001D2C1941CD3F00EC20F4 /* CoreGraphics.framework */; };
+		C8001D2F1941CD3F00EC20F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8001D2E1941CD3F00EC20F4 /* UIKit.framework */; };
+		C8001D351941CD3F00EC20F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8001D331941CD3F00EC20F4 /* InfoPlist.strings */; };
+		C8001D371941CD3F00EC20F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8001D361941CD3F00EC20F4 /* main.m */; };
+		C8001D3B1941CD3F00EC20F4 /* JvBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8001D3A1941CD3F00EC20F4 /* JvBAppDelegate.m */; };
+		C8001D3E1941CD3F00EC20F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8001D3C1941CD3F00EC20F4 /* Main.storyboard */; };
+		C8001D411941CD3F00EC20F4 /* JvBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8001D401941CD3F00EC20F4 /* JvBViewController.m */; };
+		C8001D431941CD3F00EC20F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8001D421941CD3F00EC20F4 /* Images.xcassets */; };
+		C8001D4A1941CD3F00EC20F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8001D491941CD3F00EC20F4 /* XCTest.framework */; };
+		C8001D4B1941CD3F00EC20F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8001D2A1941CD3F00EC20F4 /* Foundation.framework */; };
+		C8001D4C1941CD3F00EC20F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8001D2E1941CD3F00EC20F4 /* UIKit.framework */; };
+		C8001D541941CD3F00EC20F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8001D521941CD3F00EC20F4 /* InfoPlist.strings */; };
+		C8001D561941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8001D551941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8001D4D1941CD3F00EC20F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8001D1F1941CD3F00EC20F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8001D261941CD3F00EC20F4;
+			remoteInfo = JvBcustomNavTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8001D271941CD3F00EC20F4 /* JvBcustomNavTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JvBcustomNavTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8001D2A1941CD3F00EC20F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8001D2C1941CD3F00EC20F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8001D2E1941CD3F00EC20F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8001D321941CD3F00EC20F4 /* JvBcustomNavTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JvBcustomNavTransition-Info.plist"; sourceTree = "<group>"; };
+		C8001D341941CD3F00EC20F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8001D361941CD3F00EC20F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8001D381941CD3F00EC20F4 /* JvBcustomNavTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JvBcustomNavTransition-Prefix.pch"; sourceTree = "<group>"; };
+		C8001D391941CD3F00EC20F4 /* JvBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JvBAppDelegate.h; sourceTree = "<group>"; };
+		C8001D3A1941CD3F00EC20F4 /* JvBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JvBAppDelegate.m; sourceTree = "<group>"; };
+		C8001D3D1941CD3F00EC20F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8001D3F1941CD3F00EC20F4 /* JvBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JvBViewController.h; sourceTree = "<group>"; };
+		C8001D401941CD3F00EC20F4 /* JvBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JvBViewController.m; sourceTree = "<group>"; };
+		C8001D421941CD3F00EC20F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8001D481941CD3F00EC20F4 /* JvBcustomNavTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JvBcustomNavTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8001D491941CD3F00EC20F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C8001D511941CD3F00EC20F4 /* JvBcustomNavTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JvBcustomNavTransitionTests-Info.plist"; sourceTree = "<group>"; };
+		C8001D531941CD3F00EC20F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8001D551941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JvBcustomNavTransitionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8001D241941CD3F00EC20F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8001D2D1941CD3F00EC20F4 /* CoreGraphics.framework in Frameworks */,
+				C8001D2F1941CD3F00EC20F4 /* UIKit.framework in Frameworks */,
+				C8001D2B1941CD3F00EC20F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8001D451941CD3F00EC20F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8001D4A1941CD3F00EC20F4 /* XCTest.framework in Frameworks */,
+				C8001D4C1941CD3F00EC20F4 /* UIKit.framework in Frameworks */,
+				C8001D4B1941CD3F00EC20F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8001D1E1941CD3F00EC20F4 = {
+			isa = PBXGroup;
+			children = (
+				C8001D301941CD3F00EC20F4 /* JvBcustomNavTransition */,
+				C8001D4F1941CD3F00EC20F4 /* JvBcustomNavTransitionTests */,
+				C8001D291941CD3F00EC20F4 /* Frameworks */,
+				C8001D281941CD3F00EC20F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8001D281941CD3F00EC20F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8001D271941CD3F00EC20F4 /* JvBcustomNavTransition.app */,
+				C8001D481941CD3F00EC20F4 /* JvBcustomNavTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8001D291941CD3F00EC20F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8001D2A1941CD3F00EC20F4 /* Foundation.framework */,
+				C8001D2C1941CD3F00EC20F4 /* CoreGraphics.framework */,
+				C8001D2E1941CD3F00EC20F4 /* UIKit.framework */,
+				C8001D491941CD3F00EC20F4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8001D301941CD3F00EC20F4 /* JvBcustomNavTransition */ = {
+			isa = PBXGroup;
+			children = (
+				C8001D391941CD3F00EC20F4 /* JvBAppDelegate.h */,
+				C8001D3A1941CD3F00EC20F4 /* JvBAppDelegate.m */,
+				C8001D3C1941CD3F00EC20F4 /* Main.storyboard */,
+				C8001D3F1941CD3F00EC20F4 /* JvBViewController.h */,
+				C8001D401941CD3F00EC20F4 /* JvBViewController.m */,
+				C8001D421941CD3F00EC20F4 /* Images.xcassets */,
+				C8001D311941CD3F00EC20F4 /* Supporting Files */,
+			);
+			path = JvBcustomNavTransition;
+			sourceTree = "<group>";
+		};
+		C8001D311941CD3F00EC20F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8001D321941CD3F00EC20F4 /* JvBcustomNavTransition-Info.plist */,
+				C8001D331941CD3F00EC20F4 /* InfoPlist.strings */,
+				C8001D361941CD3F00EC20F4 /* main.m */,
+				C8001D381941CD3F00EC20F4 /* JvBcustomNavTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8001D4F1941CD3F00EC20F4 /* JvBcustomNavTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8001D551941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m */,
+				C8001D501941CD3F00EC20F4 /* Supporting Files */,
+			);
+			path = JvBcustomNavTransitionTests;
+			sourceTree = "<group>";
+		};
+		C8001D501941CD3F00EC20F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8001D511941CD3F00EC20F4 /* JvBcustomNavTransitionTests-Info.plist */,
+				C8001D521941CD3F00EC20F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8001D261941CD3F00EC20F4 /* JvBcustomNavTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8001D591941CD3F00EC20F4 /* Build configuration list for PBXNativeTarget "JvBcustomNavTransition" */;
+			buildPhases = (
+				C8001D231941CD3F00EC20F4 /* Sources */,
+				C8001D241941CD3F00EC20F4 /* Frameworks */,
+				C8001D251941CD3F00EC20F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JvBcustomNavTransition;
+			productName = JvBcustomNavTransition;
+			productReference = C8001D271941CD3F00EC20F4 /* JvBcustomNavTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8001D471941CD3F00EC20F4 /* JvBcustomNavTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8001D5C1941CD3F00EC20F4 /* Build configuration list for PBXNativeTarget "JvBcustomNavTransitionTests" */;
+			buildPhases = (
+				C8001D441941CD3F00EC20F4 /* Sources */,
+				C8001D451941CD3F00EC20F4 /* Frameworks */,
+				C8001D461941CD3F00EC20F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8001D4E1941CD3F00EC20F4 /* PBXTargetDependency */,
+			);
+			name = JvBcustomNavTransitionTests;
+			productName = JvBcustomNavTransitionTests;
+			productReference = C8001D481941CD3F00EC20F4 /* JvBcustomNavTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8001D1F1941CD3F00EC20F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JvB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "J.J.A.P. van Breukelen";
+				TargetAttributes = {
+					C8001D471941CD3F00EC20F4 = {
+						TestTargetID = C8001D261941CD3F00EC20F4;
+					};
+				};
+			};
+			buildConfigurationList = C8001D221941CD3F00EC20F4 /* Build configuration list for PBXProject "JvBcustomNavTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8001D1E1941CD3F00EC20F4;
+			productRefGroup = C8001D281941CD3F00EC20F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8001D261941CD3F00EC20F4 /* JvBcustomNavTransition */,
+				C8001D471941CD3F00EC20F4 /* JvBcustomNavTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8001D251941CD3F00EC20F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8001D431941CD3F00EC20F4 /* Images.xcassets in Resources */,
+				C8001D351941CD3F00EC20F4 /* InfoPlist.strings in Resources */,
+				C8001D3E1941CD3F00EC20F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8001D461941CD3F00EC20F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8001D541941CD3F00EC20F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8001D231941CD3F00EC20F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8001D371941CD3F00EC20F4 /* main.m in Sources */,
+				C8001D411941CD3F00EC20F4 /* JvBViewController.m in Sources */,
+				C8001D3B1941CD3F00EC20F4 /* JvBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8001D441941CD3F00EC20F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8001D561941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8001D4E1941CD3F00EC20F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8001D261941CD3F00EC20F4 /* JvBcustomNavTransition */;
+			targetProxy = C8001D4D1941CD3F00EC20F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8001D331941CD3F00EC20F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8001D341941CD3F00EC20F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8001D3C1941CD3F00EC20F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8001D3D1941CD3F00EC20F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8001D521941CD3F00EC20F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8001D531941CD3F00EC20F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8001D571941CD3F00EC20F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8001D581941CD3F00EC20F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8001D5A1941CD3F00EC20F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JvBcustomNavTransition/JvBcustomNavTransition-Prefix.pch";
+				INFOPLIST_FILE = "JvBcustomNavTransition/JvBcustomNavTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8001D5B1941CD3F00EC20F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JvBcustomNavTransition/JvBcustomNavTransition-Prefix.pch";
+				INFOPLIST_FILE = "JvBcustomNavTransition/JvBcustomNavTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C8001D5D1941CD3F00EC20F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JvBcustomNavTransition.app/JvBcustomNavTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JvBcustomNavTransition/JvBcustomNavTransition-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JvBcustomNavTransitionTests/JvBcustomNavTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C8001D5E1941CD3F00EC20F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JvBcustomNavTransition.app/JvBcustomNavTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JvBcustomNavTransition/JvBcustomNavTransition-Prefix.pch";
+				INFOPLIST_FILE = "JvBcustomNavTransitionTests/JvBcustomNavTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8001D221941CD3F00EC20F4 /* Build configuration list for PBXProject "JvBcustomNavTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8001D571941CD3F00EC20F4 /* Debug */,
+				C8001D581941CD3F00EC20F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8001D591941CD3F00EC20F4 /* Build configuration list for PBXNativeTarget "JvBcustomNavTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8001D5A1941CD3F00EC20F4 /* Debug */,
+				C8001D5B1941CD3F00EC20F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8001D5C1941CD3F00EC20F4 /* Build configuration list for PBXNativeTarget "JvBcustomNavTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8001D5D1941CD3F00EC20F4 /* Debug */,
+				C8001D5E1941CD3F00EC20F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8001D1F1941CD3F00EC20F4 /* Project object */;
+}

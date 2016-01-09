@@ -202,7 +202,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JvB;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "J.J.A.P. van Breukelen";
 				TargetAttributes = {
 					C8001D471941CD3F00EC20F4 = {
@@ -326,6 +326,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -386,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JvBcustomNavTransition/JvBcustomNavTransition-Prefix.pch";
 				INFOPLIST_FILE = "JvBcustomNavTransition/JvBcustomNavTransition-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "JvB.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -399,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JvBcustomNavTransition/JvBcustomNavTransition-Prefix.pch";
 				INFOPLIST_FILE = "JvBcustomNavTransition/JvBcustomNavTransition-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "JvB.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -420,6 +423,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "JvBcustomNavTransitionTests/JvBcustomNavTransitionTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "JvB.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -438,6 +442,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JvBcustomNavTransition/JvBcustomNavTransition-Prefix.pch";
 				INFOPLIST_FILE = "JvBcustomNavTransitionTests/JvBcustomNavTransitionTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "JvB.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -463,6 +468,7 @@
 				C8001D5B1941CD3F00EC20F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8001D5C1941CD3F00EC20F4 /* Build configuration list for PBXNativeTarget "JvBcustomNavTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +477,7 @@
 				C8001D5E1941CD3F00EC20F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

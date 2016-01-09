@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="m8W-1i-MLd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="m8W-1i-MLd">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--JvB View Controller - White-->
+        <!--White-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="JvBViewController" sceneMemberID="viewController">
@@ -16,9 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILa-3K-HEc">
-                                <rect key="frame" x="139" y="234" width="43" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILa-3K-HEc">
+                                <rect key="frame" x="20" y="269" width="280" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HuU-ev-3c8"/>
+                                    <constraint firstAttribute="width" constant="280" id="siX-MS-rAZ"/>
+                                </constraints>
                                 <state key="normal" title="To red">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -28,6 +32,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ILa-3K-HEc" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="dbA-81-CiW"/>
+                            <constraint firstItem="ILa-3K-HEc" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="zOx-Y3-9jN"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="White" id="Cou-1R-6H7"/>
                 </viewController>
@@ -35,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="664" y="83"/>
         </scene>
-        <!--View Controller - Red-->
+        <!--Red-->
         <scene sceneID="Dhc-mm-VOy">
             <objects>
                 <viewController id="vmM-QB-sUi" sceneMemberID="viewController">
@@ -73,9 +81,4 @@
             <point key="canvasLocation" x="277" y="83"/>
         </scene>
     </scenes>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

@@ -22,6 +22,7 @@
 		C8001D541941CD3F00EC20F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8001D521941CD3F00EC20F4 /* InfoPlist.strings */; };
 		C8001D561941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8001D551941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m */; };
 		C8001D611941CDF800EC20F4 /* JvBAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C8001D601941CDF800EC20F4 /* JvBAnimator.m */; };
+		C84861711C41718800F9F788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84861701C41718800F9F788 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C8001D551941CD3F00EC20F4 /* JvBcustomNavTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JvBcustomNavTransitionTests.m; sourceTree = "<group>"; };
 		C8001D5F1941CDF800EC20F4 /* JvBAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JvBAnimator.h; sourceTree = "<group>"; };
 		C8001D601941CDF800EC20F4 /* JvBAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JvBAnimator.m; sourceTree = "<group>"; };
+		C84861701C41718800F9F788 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				C8001D391941CD3F00EC20F4 /* JvBAppDelegate.h */,
 				C8001D3A1941CD3F00EC20F4 /* JvBAppDelegate.m */,
 				C8001D3C1941CD3F00EC20F4 /* Main.storyboard */,
+				C84861701C41718800F9F788 /* LaunchScreen.storyboard */,
 				C8001D3F1941CD3F00EC20F4 /* JvBViewController.h */,
 				C8001D401941CD3F00EC20F4 /* JvBViewController.m */,
 				C8001D5F1941CDF800EC20F4 /* JvBAnimator.h */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8001D431941CD3F00EC20F4 /* Images.xcassets in Resources */,
+				C84861711C41718800F9F788 /* LaunchScreen.storyboard in Resources */,
 				C8001D351941CD3F00EC20F4 /* InfoPlist.strings in Resources */,
 				C8001D3E1941CD3F00EC20F4 /* Main.storyboard in Resources */,
 			);
